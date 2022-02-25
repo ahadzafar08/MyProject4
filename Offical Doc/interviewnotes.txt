@@ -1,0 +1,72 @@
+﻿apache Camel is an open source framework. It is a message-oriented middleware that provides rule-based routing and mediation engine. You can define rules such as if it is a “milk” order redirect it to a milk vendor and if it is an “oil” order redirect it to an oil vendor, and so on. Using Camel, you will be able to implement these rules and do the routing in a familiar Java code. It means that you can use your familiar Java IDE to define these rules in a type-safe environment. We do not need to use XML configuration files, which typically tend to be bulky. Camel though supports XML configuration through Spring framework, if you prefer to use XML for configuring the rules. You may even use Blueprint XML Configuration files and even a Scala DSL, if you are a Scala lover. It also means that you can use your favorite Java, Scala IDE or even a simple XML editor to configure the rules.
+
+The input to this engine can be a comma-delimited text file, a POJO (Plain Old Java Object), XML are any of the several other formats supported by Camel. Similarly, the output of the engine can be redirected to a file, to a message queue or even your monitor screen for you to view the orders sent to respective vendors. These are called the endpoints and Camel supports the Message Endpoint EIP pattern. The Camel endpoints are discussed later in the Endpoints chapter.
+
+
+microservices?
+springboot?
+
+In28Minutes---Microservices
+
+Security of API? 
+JWT-
+LDAP---JSON TOKEN
+
+LoadBalancing--- Ribbon
+
+
+
+springBoot?diff bw annotations?
+
+m--pojo +dbconn
+v--json,swagger
+c---restController vs controll
+
+excptnHandling in springBoot?--ControllerAdvice
+
+sending statusCode?explain implementation?
+
+ArrayList vs LinkedList?array for fetching is quick.
+
+
+logger?traceId for diff service specific
+
+
+String Builder VS String buffer?
+String literal,immutable?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
